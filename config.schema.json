@@ -1,0 +1,89 @@
+{
+  "pluginAlias": "HyperionJub",
+  "pluginType": "platform",
+  "singular": true,
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "name",
+        "type": "string",
+        "required": true,
+        "default": "TV Backlight"
+      },
+      "token": {
+        "title": "Api Token",
+        "type": "string",
+        "required": true,
+        "default": ""
+      },
+      "url": {
+        "title": "Url",
+        "type": "string",
+        "required": true,
+        "default": "192.168.0.0"
+      },
+      "port": {
+        "title": "Port",
+        "type": "string",
+        "required": true,
+        "default": "8090"
+      },
+      "priority": {
+        "title": "Priority",
+        "type": "integer",
+        "required": true,
+        "default": 50
+      },
+      "effects": {
+        "title": "Effects",
+        "type": "array",
+        "required": false,
+        "default": [
+          "none",
+          "Atomic swirl",
+          "Blue mood blobs",
+          "Breath",
+          "Candle",
+          "Cinema brighten lights",
+          "Cinema dim lights",
+          "Cold mood blobs",
+          "Collision",
+          "Color traces",
+          "Double swirl",
+          "Fire",
+          "Flags Germany/Sweden",
+          "Full color mood blobs",
+          "Green mood blobs",
+          "Knight rider",
+          "Led Test",
+          "Led Test - Sequence",
+          "Light clock",
+          "Lights",
+          "Matrix",
+          "Notify blue",
+          "Pac-Man",
+          "Plasma",
+          "Police Lights Single",
+          "Police Lights Solid",
+          "Rainbow mood",
+          "Rainbow swirl",
+          "Rainbow swirl fast",
+          "Random",
+          "Red mood blobs",
+          "Sea waves",
+          "Snake",
+          "Sparks",
+          "Strobe red",
+          "Strobe white",
+          "System Shutdown",
+          "Trails",
+          "Trails color",
+          "Warm mood blobs",
+          "Waves with Color",
+          "X-Mas"
+        ]
+      }
+    }
+  }
+}
