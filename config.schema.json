@@ -15,14 +15,15 @@
         "title": "Api Token",
         "description": "This can be generated in {HYPERION_URL}/#conf_network --> Token Management",
         "type": "string",
-        "required": true,
+        "required": false,
         "default": ""
       },
       "url": {
         "title": "Url",
         "type": "string",
         "required": true,
-        "default": "192.168.0.0"
+        "default": "192.168.0.0",
+        "description": "optionally include http(s)://. If this is not present, it will automatically be appended"
       },
       "port": {
         "title": "Port",
@@ -40,7 +41,7 @@
       },
       "effects": {
         "title": "Effects Name",
-        "description": "find these by going into {HYPERION_URL}/#effects_configurator.<br>The first default one 'None' is required.<br>Due to limitations with the home app, this will be shown as a number selector in the app.<br>This feature also required the Home+ 6- or Eve app",
+        "description": "find these by going into {HYPERION_URL}/#effects_configurator.<br>The first default one 'None' is required.<br>Due to limitations with the home app, this will be shown as a number selector in the app.<br>This feature also required the Home+ 6 or the Eve app.<br>The default effects **should** be present in hyperion by default",
         "type": "array",
         "required": true,
         "items": {

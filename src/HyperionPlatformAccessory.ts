@@ -26,7 +26,7 @@ export class HyperionPlatformAccessory {
 
     // Setup axios, which will comunicate with Hyperion
     const url = `${this.platform.config.url}:${this.platform.config.port}/json-rpc`;
-    this.axios = createAxios(url, this.platform.config.token, this.platform.log);
+    this.axios = createAxios(url, this.platform.config.token ?? "", this.platform.log);
 
     // set accessory information
     this.accessory.getService(this.platform.Service.AccessoryInformation)!
