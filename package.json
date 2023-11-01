@@ -1,16 +1,20 @@
 {
-  "private": true,
-  "displayName": "Homebridge with Hyperion",
+  "private": false,
+  "displayName": "Hyperion for Homebridge",
   "name": "homebridge-hyperion-jub",
-  "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "version": "1.0.1",
+  "author": {
+    "name": "Julius Bendt",
+    "url": "https://jub.dk"
+  },
+  "description": "A simple plugin which allows Homekit to talk to hyperion, though Homebridge",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "git+https://github.com/Julius-Bendt/homebridge-hyperion.git"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/Julius-Bendt/homebridge-hyperion/issues"
   },
   "engines": {
     "node": "^18.17.0",
@@ -24,7 +28,9 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "hyperionNg",
+    "hyperion"
   ],
   "dependencies": {
     "axios": "^1.6.0",
