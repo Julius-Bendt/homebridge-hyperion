@@ -20,8 +20,7 @@ npm i -g homebridge-hyperion-jub
 - Effects
 
 Some of these may require the Eve- or home+ app.
-
-[Home+](https://apps.apple.com/us/app/home-6/id995994352)
+[Home+](https://apps.apple.com/us/app/home-6/id995994352)<br>
 [Eve app](https://apps.apple.com/us/app/eve-for-matter-homekit/id917695792) (Untested)
 
 These links are not affiliated. Other apps may work, the apple home app doesnt support custom characteristics, but base modifications should work.
