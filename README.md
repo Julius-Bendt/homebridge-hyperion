@@ -19,7 +19,7 @@ npm i -g homebridge-hyperion-jub
 - Saturation
 - Effects
 
-Some of these may require the Eve- or home+ app.
+Some of these may require the Eve- or home+ app.<br>
 [Home+](https://apps.apple.com/us/app/home-6/id995994352)<br>
 [Eve app](https://apps.apple.com/us/app/eve-for-matter-homekit/id917695792) (Untested)
 
