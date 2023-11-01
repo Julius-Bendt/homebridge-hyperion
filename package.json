@@ -2,7 +2,7 @@
   "private": false,
   "displayName": "Hyperion for Homebridge",
   "name": "homebridge-hyperion-jub",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "author": {
     "name": "Julius Bendt",
     "url": "https://jub.dk"
