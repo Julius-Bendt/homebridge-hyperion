@@ -117,7 +117,8 @@ export class HyperionPlatformAccessory {
   }
 
   async setHue(value: CharacteristicValue) {
-    const newHue = Color(this.states.color).hue(value);
+
+    const newHue = Color(this.states.color).hue(value as number);
     this.states.color = newHue;
 
     this.platform.log.info(`Set Characteristic hue ->  ${newHue}`);
@@ -133,7 +134,7 @@ export class HyperionPlatformAccessory {
 
   async setSaturation(value: CharacteristicValue) {
     this.states.saturation = (value ?? this.states.saturation) as number;
-    const newColor = Color(this.states.color).saturationv(value);
+    const newColor = Color(this.states.color).saturationv(value as number);
 
 
     this.platform.log.info('Set Characteristic saturation -> ', this.states.saturation,

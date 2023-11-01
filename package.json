@@ -2,7 +2,7 @@
   "private": false,
   "displayName": "Hyperion for Homebridge",
   "name": "homebridge-hyperion-jub",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "author": {
     "name": "Julius Bendt",
     "url": "https://jub.dk"
@@ -37,6 +37,7 @@
     "color": "^4.2.3"
   },
   "devDependencies": {
+    "@types/color": "^3.0.5",
     "@types/node": "^18.16.20",
     "@typescript-eslint/eslint-plugin": "^5.62.0",
     "@typescript-eslint/parser": "^5.62.0",
