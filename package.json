@@ -2,7 +2,7 @@
   "private": false,
   "displayName": "Hyperion for Homebridge",
   "name": "homebridge-hyperion-jub",
-  "version": "1.0.5",
+  "version": "1.0.11",
   "author": {
     "name": "Julius Bendt",
     "url": "https://jub.dk"
@@ -17,7 +17,7 @@
     "url": "https://github.com/Julius-Bendt/homebridge-hyperion/issues"
   },
   "engines": {
-    "node": "^18.17.0",
+    "node": "^18.16.0",
     "homebridge": "^1.6.0"
   },
   "main": "dist/index.js",

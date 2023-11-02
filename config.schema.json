@@ -29,21 +29,21 @@
         "title": "Port",
         "description": "Usually 8090",
         "type": "string",
-        "required": true,
+        "required": false,
         "default": "8090"
       },
       "priority": {
         "title": "Priority",
         "description": "Highly recommended to keep it at 50",
         "type": "integer",
-        "required": true,
+        "required": false,
         "default": 50
       },
       "effects": {
         "title": "Effects Name",
         "description": "find these by going into {HYPERION_URL}/#effects_configurator.<br>The first default one 'None' is required.<br>Due to limitations with the home app, this will be shown as a number selector in the app.<br>This feature also required the Home+ 6 or the Eve app.<br>The default effects **should** be present in hyperion by default",
         "type": "array",
-        "required": true,
+        "required": false,
         "items": {
           "title": "Effect",
           "description": "",

@@ -6,4 +6,4 @@ export const PLATFORM_NAME = 'HyperionJub';
 /**
  * This must match the name of your plugin as defined the package.json
  */
-export const PLUGIN_NAME = 'jub-hyperion';
+export const PLUGIN_NAME = 'homebridge-hyperion-jub';
