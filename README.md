@@ -2,6 +2,8 @@
 
 Setting up hyperion to work with homebridge using existing solutions felt somewhat lacking, therefore, I created a new plugin!
 
+[![verified-by-homebridge](https://img.shields.io/badge/homebridge-verified-blueviolet?color=%23491F59&style=for-the-badge&logoColor=%23FFFFFF&logo=homebridge)](https://github.com/homebridge/homebridge/wiki/Verified-Plugins)
+
 ## Installing
 
 Using the homebridge web UI, or:
